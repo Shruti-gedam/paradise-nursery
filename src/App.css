@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #245c35;
+  color: white;
+}
+
+.navbar h2 {
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.landing-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("https://images.unsplash.com/photo-1497250681960-ef046c08a56e");
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-content {
+  max-width: 650px;
+  padding: 40px;
+  color: white;
+}
+
+.landing-content h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.landing-content h2 {
+  font-size: 28px;
+}
+
+.landing-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.get-started,
+.about-button {
+  padding: 13px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.get-started {
+  background: white;
+  color: #245c35;
+}
+
+.about-button {
+  background: #245c35;
+  color: white;
+}
